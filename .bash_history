@@ -28,3 +28,11 @@ git push origin master
 git config --global user.email "rifaatjp.rifaatjp@gmail.com"
 git config --global user.nama "Rifat Januar Purwanto"
 git commit -m "init pertama"
+git add .
+git commit -m "init pertama"
+git push origin master
+git init
+git remote add origin
+git remote add origin https://github.com/rifaatjp/tugas-git.git
+git remote -v
+git status
