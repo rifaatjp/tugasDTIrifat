@@ -86,3 +86,10 @@ git remote remove origin
 git remote add origin https://github.com/rifaatjp/mantul.git
 git branch master
 git checkout master
+git add .
+git commit -m "init pertama"
+git push origin master
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/rifaatjp/mantul.git
+git branch master
