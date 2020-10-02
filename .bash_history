@@ -36,3 +36,31 @@ git remote add origin
 git remote add origin https://github.com/rifaatjp/tugas-git.git
 git remote -v
 git status
+git add .
+git commit -m "init pertama"
+git push origin master
+git pull origin master
+git clone https://github.com/rifaatjp/tugas-git.git
+git branch
+git branch develop
+git branch
+git checkout develop
+git push origin develop
+ruby -v
+travis -v
+gem install travis
+travis -v
+git ifid
+git init
+gid add cicd_laravel
+git add cicd_laravel
+git clone https://github.com/laravel/laravel.git
+git clone https://github.com/laravel/laravel.git 5.8
+git remote -v
+git remove origin
+git remove remove origin
+git remote remove origin
+git add origin https://github.com/rifaatjp/mantul.git
+git remote add origin https://github.com/rifaatjp/mantul.git
+git branch master
+git checkout master

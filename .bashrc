@@ -115,3 +115,6 @@ fi
 if [ -f "/google/devshell/bashrc.google" ]; then
   source "/google/devshell/bashrc.google"
 fi
+
+# added by travis gem
+[ ! -s /home/rifaatjp/.travis/travis.sh ] || source /home/rifaatjp/.travis/travis.sh
