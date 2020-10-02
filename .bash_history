@@ -77,3 +77,12 @@ git commit -m "init pertama"
 git push origin master
 git remote remove origin
 git remote add https://github.com/rifaatjp/tugas-git.git
+git add .
+git commit -m "init pertama"
+git push origin master
+git init
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/rifaatjp/mantul.git
+git branch master
+git checkout master
