@@ -164,3 +164,10 @@ git init
 git remote add origin https://github.com/rifaatjp/tugasDTIrifat.git
 git remote -v
 git status
+git add .
+git commit -m "init pertama"
+git push origin master
+git remote remove origin
+git remote add origin https://github.com/rifaatjp/tugasDTIrifat.git
+git remote -v
+git status
