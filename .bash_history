@@ -111,3 +111,37 @@ git remote -v
 git remote remove origin
 git remote add origin https://github.com/rifaatjp/pelatihan_cicd_laravel.git
 git branch master
+git add .
+git commit -m "init pertama"
+git push origin master 
+git clone https://github.com/laravel/laravel/tree/5.8
+git clone https://github.com/laravel/laravel.git -b 5.8
+cd laravel
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/rifaatjp/pelatihan_cicd_laravel.git
+git branch master
+git checkout master
+git add .
+git commit -m "init pertama"
+git push origin master
+git remote remove origin
+git remote add origin https://github.com/rifaatjp/latihan_cicd.git
+git branch master
+git add .
+git commit -m "init pertama"
+git push origin master
+cd laravel
+docker pull rifaatjp/pelatihan-cicd-laravel &&  docker run -p 0.0.0.0:8080:8080/tcp --env-file ./.env rifaatjp/pelatihan-cicd-laravel
+docker pull rifaatjp/pelatihan-cicd-laravel &&  docker run -p 0.0.0.0:8080:8080/tcp --env-file ./.env  rifaatjp/pelatihan-cicd-laravel
+git init
+git remote add origin https://github.com/rifaatjp/Tugas_github.git
+git remote -v
+git status
+git add README.md
+git commit -m "init pertama"
+git push origin master
+git init
+git remote add origin https://github.com/rifaatjp/Tugas_github.git
+git remote -v
+git status
