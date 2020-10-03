@@ -145,3 +145,10 @@ git init
 git remote add origin https://github.com/rifaatjp/Tugas_github.git
 git remote -v
 git status
+git add .
+git commit -m "init pertama"
+git push origin master
+git init
+git remote add origin https://github.com/rifaatjp/Tugas_github.git
+git remote -v
+git status
